@@ -23,13 +23,16 @@ function Hero() {
                     </h1>
 
                     <h3 className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-2xl md:text-3xl">
-                        Web Developer
+                        Full Stack (Backend) Developer
                     </h3>
                     <p className="md:text-base text-pretty text-sm text-gray-400">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eligendi, esse ex hic laboriosam maxime nihil qui temporibus. Aliquam assumenda magni quasi voluptates? Dolor eveniet magni minus pariatur reiciendis voluptate!
-                    </p>
+                        I’m a backend enthusiast with a desire to craft solid, scalable systems—while sneaking in some frontend fun along the way. I love solving problems, but I’m also curious enough to dive into the world of buttons and pixels (and divs).                    </p>
                 </motion.div>
-            </div>  
+            </div>
+            {/* Invisible div at the bottom center */}
+            <div id="technologies and projects" className="bottom-0 left-1/2 transform translate-y-[250px] invisible h-0 w-0">
+                {/* You can add content here if needed later, but it's invisible for now */}
+            </div>
         </div>
     )
 }

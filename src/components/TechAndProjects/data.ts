@@ -36,16 +36,16 @@ export const projectsMap = new Map<string, Project>([
         "ComponentHub",
         {
             image: "projects/x.jpg",
-            description: "A collaborative platform for frontend developers to share and discover reusable UI components. Ideal for developers looking to quickly build and customize beautiful interfaces.",
+            description: "A platform for frontend developers to share and discover reusable UI components.",
             githubLink: "https://github.com/Thompson6626/ComponentHub",
-            technologiesUsed: ["Angular", "TailwindCSS", "Docker", "Maven","Html","Css","Typescript","Java"]
+            technologiesUsed: ["Angular", "TailwindCSS", "Docker", "Maven","Html","Css","Typescript","Java","SpringBoot"]
         },
     ],
     [
         "Ecommerce",
         {
             image: "projects/x.jpg",
-            description: "A project that extracts the admission exam scores from the Universidad Nacional Mayor de San Marcos. It also includes a feature that allows users to ask questions to an AI, which attempts to convert the queries into database queries and returns the results in a table format. Perfect for those who want quick and easy access to the information.",
+            description: "A backend for an ecommerce platform with features like product catalog management, shopping cart, and user authentication",
             githubLink: "https://github.com/Thompson6626/Ecommerce",
             technologiesUsed: ["Java", "SpringBoot", "PostgreSQL", "Docker"]
         },
@@ -54,17 +54,17 @@ export const projectsMap = new Map<string, Project>([
         "Stackronyms",
         {
             image: "projects/x.jpg",
-            description: "A fun web app that generates hilarious and creative tech-related acronyms.",
+            description: "A web app generating fun and creative tech-related acronyms.",
             githubLink: "https://github.com/Thompson6626/Stackronyms",
             demoLink: "https://stackronyms.vercel.app/",
-            technologiesUsed: ["React", "Neon", "TailwindCSS","Html","Css","Typescript"]
+            technologiesUsed: ["React", "Neon", "TailwindCSS","Html","Css","Typescripts"]
         },
     ],
     [
         "Universidad Mayor de San Marcos Scores",
         {
             image: "projects/x.jpg",
-            description: "Proyecto que extrae puntajes del examen de admisión de la Universidad Nacional Mayor de San Marcos. Incluye una IA que transforma preguntas en consultas SQL para devolver resultados en forma de tabla. Ideal para explorar datos de manera rápida e intuitiva.",
+            description: "Extracts admission exam scores from Universidad Nacional Mayor de San Marcos and provides AI-powered query results.",
             githubLink: "https://github.com/Thompson6626/Universidad-Mayor-de-San-Marcos-Scores",
             technologiesUsed: ["Javascript", "Django", "Python", "Polars","Html","Css"]
         },
@@ -73,7 +73,7 @@ export const projectsMap = new Map<string, Project>([
         "Movie Streaming",
         {
             image: "projects/x.jpg",
-            description: "A backend API for a movie streaming platform. Handles user authentication, movie catalog management, and RESTful API endpoints for smooth frontend integration.",
+            description: "A backend API for a movie streaming platform with user authentication and movie management.",
             githubLink: "https://github.com/Thompson6626/Movie-Streaming",
             technologiesUsed: ["Java", "SpringBoot", "PostgreSQL", "Docker", "Maven"]
         },
@@ -82,7 +82,7 @@ export const projectsMap = new Map<string, Project>([
         "SRT Transcriber",
         {
             image: "projects/x.jpg",
-            description: "A FastAPI-based web service that transcribes audio files (e.g., MP3) into SRT subtitle format. Features optional translation and Romaji transcription capabilities.",
+            description: "A FastAPI web service that converts audio files into SRT subtitles with optional translation.",
             githubLink: "https://github.com/Thompson6626/SRT-Transcriber",
             technologiesUsed: ["FastApi", "Python"]
         },
@@ -91,7 +91,7 @@ export const projectsMap = new Map<string, Project>([
         "Whisper Subtitles Overlay",
         {
             image: "projects/x.jpg",
-            description: "A Python desktop app using FasterWhisper for real-time speech-to-text transcription. Includes a PyQt6 GUI and audio processing via SoundCard and NumPy.",
+            description: "A Python app using FasterWhisper for real-time speech-to-text transcription with a GUI.",
             githubLink: "https://github.com/Thompson6626/Live-Subtitles",
             technologiesUsed: ["Python"]
         },
@@ -100,7 +100,7 @@ export const projectsMap = new Map<string, Project>([
         "Maven Local Repository Cleaner CLI",
         {
             image: "projects/x.jpg",
-            description: "A command-line utility that cleans up your local Maven repository by removing old or redundant versions, based on custom criteria.",
+            description: "A CLI tool that cleans up old or redundant versions from the local Maven repository.",
             githubLink: "https://github.com/Thompson6626/Maven-Local-Repository-Cleaner-CLI",
             technologiesUsed: ["Java", "Maven"]
         },
@@ -109,7 +109,7 @@ export const projectsMap = new Map<string, Project>([
         "Env Example Generator CLI",
         {
             image: "projects/x.jpg",
-            description: "A CLI tool to generate or update `.env.example` files from existing `.env` files, helping teams maintain environment variable consistency.",
+            description: "A CLI tool for generating or updating .env.example files for consistent environment variables.",
             githubLink: "https://github.com/Thompson6626/Env-example-generator",
             technologiesUsed: ["Rust"]
         },
@@ -118,7 +118,7 @@ export const projectsMap = new Map<string, Project>([
         "Last Accessed CLI",
         {
             image: "projects/x.jpg",
-            description: "A CLI written in Rust that lists files in a directory based on their last accessed time. Supports sorting, filtering, and directory scanning.",
+            description: "A Rust CLI that lists files by their last accessed time, with sorting and filtering options.",
             githubLink: "https://github.com/Thompson6626/last-accessed-cli",
             technologiesUsed: ["Rust"]
         },
@@ -127,7 +127,7 @@ export const projectsMap = new Map<string, Project>([
         "Ecommerce Microservices",
         {
             image: "projects/x.jpg",
-            description: "An ecommerce backend done with the microservices architecture",
+            description: "An ecommerce backend built with a microservices architecture.",
             githubLink: "https://github.com/Thompson6626/Ecommerce-Microservices",
             technologiesUsed: ["Java", "SpringBoot", "PostgreSQL", "Docker", "Maven", "MongoDB"]
         },

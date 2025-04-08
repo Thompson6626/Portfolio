@@ -4,11 +4,11 @@ import {BiMenu, BiX} from "react-icons/bi"
 
 function NavBar() {
 
-    const sections = ["Home", "Technologies", "Projects", "Contact"];
+    const sections = ["Home", "Technologies And Projects", "Contact"];
 
     const socialLinks = [
-        { icon: <BsLinkedin />, link: "https://linkedin.com" },
-        { icon: <BsGithub />, link: "https://github.com" },
+        { icon: <BsLinkedin />, link: "https://www.linkedin.com/in/aaronmu%C3%B1oz/" },
+        { icon: <BsGithub />, link: "https://github.com/Thompson6626" },
     ];
 
     const [ isOpen, setIsOpen ] = useState(false);
@@ -22,7 +22,7 @@ function NavBar() {
             <a href="#home" className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent opacity-80 text-3xl font-semibold transition-all duration-300 hover:opacity-100">
                 Aaron
             </a>
-            <ul className="hidden md:flex gap-10">
+            <ul className="hidden md:flex gap-10 justify-evenly">
                 { sections.map((text, index) => (
                     <a
                         href={`#${text.toLowerCase()}`}

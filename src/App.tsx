@@ -2,7 +2,6 @@ import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import TechAndProjects from "./components/TechAndProjects/TechAndProjects";
 import Contact from "./components/Contact";
-import Project from "./components/TechAndProjects/ProjectCard";
 
 function App() {
 
@@ -13,7 +12,6 @@ function App() {
               <NavBar/>
               <Hero />
               <TechAndProjects />
-              <Project />
               <Contact/>
           </main>
       </div>

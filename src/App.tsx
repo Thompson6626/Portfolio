@@ -1,8 +1,8 @@
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
-import Technologies from "./components/Technologies";
+import TechAndProjects from "./components/TechAndProjects/TechAndProjects";
 import Contact from "./components/Contact";
-import Projects from "./components/Projects";
+import Project from "./components/TechAndProjects/ProjectCard";
 
 function App() {
 
@@ -12,8 +12,8 @@ function App() {
           <main className="flex flex-col items-center px-4 md:px-8 lg:px-16">
               <NavBar/>
               <Hero />
-              <Technologies />
-              <Projects />
+              <TechAndProjects />
+              <Project />
               <Contact/>
           </main>
       </div>
